@@ -18,13 +18,13 @@
       <div class="navbar navbar-default">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" ng-init="menuCollapsed = true" ng-click="menuCollapsed = ! menuCollapsed">
-            <span class="sr-only">Alternar navegação</span>
+            <span class="sr-only">Change Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <div class="navbar-brand">
-            Amobam
+            Finance
           </div>
         </div>
         <div class="collapse navbar-collapse" collapse="menuCollapsed">
@@ -58,17 +58,10 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-inner">
-		  <hr />
+          <hr />
           <p>
-            (c) 2014 Bruno Melo (baseado em <a href="http://www.joshdavidmiller.com">Josh David Miller</a>).
-			<br />
-            Amobam utiliza
-			<a href="http://www.slimframework.com/">Slim Framework</a>,
-            <a href="http://www.angularjs.org">AngularJS</a>,
-            <a href="http://getbootstrap.com">Bootstrap</a>, 
-            <a href="http://angular-ui.github.com/bootstrap">UI Bootstrap</a>,
-            e 
-            <a href="http://fortawesome.github.com/Font-Awesome">Font Awesome</a>.        
+            (c) <?php echo date("Y") ?> Bruno Melo (based on <a href="http://www.joshdavidmiller.com">Josh David Miller</a>). <br />
+            Amobam utiliza <a href="http://www.slimframework.com/">Slim Framework</a>, <a href="http://www.angularjs.org">AngularJS</a>, <a href="http://getbootstrap.com">Bootstrap</a>, <a href="http://angular-ui.github.com/bootstrap">UI Bootstrap</a>, e <a href="http://fortawesome.github.com/Font-Awesome">Font Awesome</a>.
           </p>
         </div>
       </div>
